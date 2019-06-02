@@ -2,6 +2,7 @@ h1 {
   font-family: $playfair;
   font-weight: $bold-italic;
   font-size: $x-large;
+  color: $white;
 }
 
 
@@ -9,6 +10,7 @@ h2 {
   font-family: $playfair;
   font-weight: $bold-italic;
   font-size: $large;
+  padding: .2rem;
 
 }
 
@@ -19,4 +21,9 @@ h6 {
   font-family: $roboto;
   font-weight: $regular;
   font-size: $medium;
+}
+
+p {
+  font-family: $roboto;
+  font-weight: 300;
 }

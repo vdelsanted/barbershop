@@ -9736,20 +9736,57 @@ h6 {
   font-size: 16px;
 }
 
-.cover {
-  max-width: 100%;
+.button {
+  padding: 0.7rem 2rem;
+  border-radius: 3px;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  color: #FFF;
 }
 
-.cover__image {
-  background-size: cover;
+.button__hover {
+  background-color: #6C6E70;
+  border: 1px solid #6C6E70;
+}
+.button__hover:hover {
+  background-color: 300;
+  background-color: 300;
+  color: #E6E7E7;
+}
+
+.menu {
+  background-color: #121619;
+  background-repeat: no-repeat;
+}
+
+.menu {
+  color: #FFF;
+}
+
+.header__menu-blog {
+  color: #D76C69;
+}
+
+.profile__rrss a {
+  color: #ECBCBA;
 }
 
 .header {
-  background-color: #121619;
-  max-width: 100%;
+  background-image: url("../images/post-image.jpg");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.header__cover__text {
+  text-align: center;
+  position: relative;
+  top: 70vh;
+  font-family: "Playfair Display", serif;
+  color: #FFF;
+  font-size: 70px;
 }
 
-.header__menu-a {
+.menu {
   color: #FFF;
 }
 
@@ -9759,6 +9796,10 @@ h6 {
 
 .outro {
   background-color: #121619;
+}
+
+.outro__image {
+  align-content: center;
 }
 
 /*# sourceMappingURL=main.css.map */

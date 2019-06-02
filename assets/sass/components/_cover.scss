@@ -1,7 +1,16 @@
-.cover {
-  max-width: 100%;
+.menu {
+  background-color: $eerie-black;
+  background-repeat: no-repeat;
 }
 
-.cover__image {
-  background-size: cover;
+.menu {
+  color: $white;
+}
+
+.header__menu-blog {
+  color: $ruddy-pink;
+}
+
+.header__menu-a {
+  color: $white;
 }

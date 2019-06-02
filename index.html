@@ -16,7 +16,7 @@
 </head>
 <body>
 
-  <header class="container header">
+  <div class="container menu">
     <div class="row">
       <div class="col-xs-6 col-md-6">
         <img src="assets/images/logo.png" alt="logo" class="header__logo">
@@ -46,20 +46,17 @@
         </nav>
       </div>
     </div>
-  </header>
+  </div>
 
-  <main class="section-initial cover">
-    <div class="container hero-section">
-      <img src="assets/images/post-image.jpg" alt="cover" class="cover__image">
-    </div>
-    <div>
-      <h1 class="section-initial__title cover__text">5 formas de cuidar tu corte de cabello</h1>
-    </div>
-    <div>
-      <!-- fontawesome -->
-      <i class="fas fa-angle-double-down cover__icon"></i>
-    </div>
-  </main>
+  <header class="container-fluid header">
+      <div>
+        <h1 class="header__title">5 formas de cuidar <br>tu corte de cabello</h1>
+      </div>
+      <div>
+        <!-- fontawesome -->
+        <i class="fas fa-angle-double-down cover__icon"></i>
+      </div>
+  </header>
 
   <section class="main-text">
     <article class="main-text__article">
@@ -72,7 +69,7 @@
     </article>
     <div class="main-text__buttons">
       <button type="button" name="button">Compartir</button>
-      <button type="button" name="button">Comentar en Twitter</button>
+      <button type="button__hover" name="button">Comentar en Twitter</button>
     </div>
   </section>
 
@@ -89,7 +86,7 @@
         </div>
       </div>
       <div class="col-xs-6 col-md-6">
-        <p class="profile__intro">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <p class="profile__intro d-none d-sm-block">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
       </div>
     </div>
   </section>
@@ -102,7 +99,7 @@
       <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Anterior</a>
     </li>
     <li class="page-item"><a class="page-link" href="#">1</a></li>
-    <li class="page-item"><a class="page-link" href="#">2</a></li>
+    <li class="page-item__change"><a class="page-link" href="#">2</a></li>
     <li class="page-item"><a class="page-link" href="#">3</a></li>
     <li class="page-item">
       <a class="page-link" href="#">Siguiente</a>

@@ -1,0 +1,18 @@
+.button {
+  padding: .7rem 2rem;
+  border-radius: 3px;
+  font-family: $roboto;
+  font-size: $small;
+  color: $white;
+}
+
+.button__hover {
+  background-color: $nickel;
+  border: 1px solid $nickel;
+
+  &:hover {
+    background-color: $light-gray;
+    background-color: $light-gray;
+    color: $platinum;
+  }
+}

@@ -1,12 +1,16 @@
 .header {
-  background-color: $eerie-black;
-  max-width: 100%;
-}
+  background-image: url('../images/post-image.jpg');
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
 
-.header__menu-a {
-  color: $white;
-}
-
-.header__menu-blog {
-  color: $ruddy-pink;
+  &__title {
+    text-align: center;
+    position: relative;
+    top: 40vh;
+    font-family: $playfair;
+    font-weight: $bold-italic;
+    color: $white;
+    font-size: $xx-large;
+  }
 }
